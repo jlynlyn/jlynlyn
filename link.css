@@ -2,12 +2,13 @@
 	margin:0;
 	padding:0;
 	font-family:Century Gothic;
-	Background-color:gray;
+	background-color:gray;
 }
 
 header{
 	background-image: url(./image/main2.jpg);
-	height:950px;
+	background-color:gray;
+	height:100%;
 	background-size:cover;
 	background-position:center;
 }
@@ -17,26 +18,30 @@ headingdiv{
 	background-color:Transparant<!--deepPink-->;
 	margin-top:20px;
 }
-
 .headingdiv h1{
-		text-align:Center;
-		height:70px;
-		line-height:70px;
-		color:Pink;
-		}
-.headingdiv h2{
-	text-align:Justify;
+	text-align:Center;
+	height:70px;
+	line-height:70px;
+	color:PINK;
+	
+}
+
+.hobbies h2{
+	text-align:justify;
 	height:50px;
 	line-height:60px;
-	color:PINK;
+	color:pink;
+	
 }
+
 h2 h3{
-	text-align:center;
+	text-align:Center;
 	color:blueviolet;
 	height:50px;
 	color:blue;
-	}
+}
 	
+
 
 .wrapper{
 	clear:both;
@@ -44,10 +49,10 @@ h2 h3{
 	margin-top:50px;
 	width:90%;
 	height:500px;
-	background-color:Pink;<!--PINK-->
+	background-color:pink;<!--PINK-->
 }
 .leftdiv{
-	width:70%;
+	width:50%;
 	background-color:#0ff;
 	height:500px;
 	float:left;
@@ -55,13 +60,14 @@ h2 h3{
 .leftinside{
 	margin-top:60px;
 	margin-left:60px;
-	background-color:transparent;
+	background-color:none;
 	height:350px;
 	width:85%;
 }
 
 .leftinside h2{
 	text-align:center;
+	color:pink;
 }
 
 .aboutp{
@@ -71,18 +77,18 @@ h2 h3{
 	height:300px;
 	font-size:20px;
 	font-family:Verdanda.Genva, sans-serif;
-	color:blue;
+	color:white;
 }
 .rightdiv{
 	width:40%;
-	float:left;
+	float:right;
 	height:350px;
 	width:35%;
-	background-color:#0C9
+	background-color:#0C9;
 }
 .imgclass{
-	width:75%;
-	height:80px;
+	width:50%;
+	height:50%;
 	border:5px solid Blueviolet;
 	
 	
@@ -166,8 +172,7 @@ ul li.active a{
 		margin:5px;
 		border:1px solid Blueviolet;
 		float:left;
-		width:60%;
-		height:40;
+		width:390px;
 }
 .gallery img{
 	width:auto;
@@ -195,9 +200,9 @@ ul li.active a{
 	left:0;
 	bottom:0;
 	width:100%;
-	background-color:BlueViolet;
-	color:Pink;
+	color:pink;
 	text-align:center;
+	border-color:1px solid BlueViolet;
 	
 }
 	
