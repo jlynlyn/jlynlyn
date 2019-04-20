@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width" name="viewport">
+	<title>Gallery</title>
+	<style>
+
+	* {
+	     box-sizing: border-box;
+	     background-color:gray;
+		 background-image: url(./image/main2.jpg);
+	}
+
+	.column {
+	 float: left;
+	 width: 30%;
+	 padding: 12px;
+	}
+
+	/* Clearfix (clear floats) */
+	.row::after {
+
+	 clear: both;
+	 display: table;
+	}
+	ul {
+	   float:right;
+	   list-style:none;
+	   margin-top:25px;
+	}
+	ul li{
+	   display:inline-block;
+	}
+
+
+	ul li a{
+	   text-decoration:none;
+	   color:blue;
+	   padding:5px 20px;
+	   border:1px solid BlueViolet;/*transparant */
+	   transition:0.6s ease;
+	}
+
+	ul li a:hover{
+	   background-color:LightPink;
+	   color:BlueViolet;
+	}
+	ul li.active a{
+	   background-color:LightGray;
+	   color:#ffa07a;  
+	}
+
+
+	.container{
+	   
+	   width:100%;
+	   margin:auto;
+	   background:BlueViolet;
+	   overflow:auto;
+	}
+
+
+	h2{
+	color:Blueviolet;
+	text-align:center;
+	}
+
+	.gallery{
+	       margin:5px;
+	       padding:0;
+	       height:50%;
+	       border:1px solid Blueviolet;
+	       float:none;
+	       width:50%;
+	}
+
+.zoom {
+  padding: 50px;
+  background-color: transparant;
+  transition: transform .3s;
+  width: 65%;
+  height: 70%;
+  margin: 0 auto;
+}
+	
+.zoom:hover {
+  -ms-transform: scale(2.0); /* IE 9 */
+  -webkit-transform: scale(2.0); /* Safari 3-8 */
+  transform: scale(2.0); 
+}
+
+	.footer{
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	color:Coral;
+	text-align:center;
+	border-color:1px solid BlueViolet;
+	background-color:blueviolet;
+	
+}
+	
+	</style>
+</head>
+<body>
+	<header>
+		<div id="container">
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="aboutme.html">About ME</a>
+				</li>
+				<li class="active">
+					<a href="gallery.html">Gallery</a>
+				</li>
+				<li>
+					<a href="location.html">Location</a>
+				</li>
+				<li>
+					<a href="hobbies.html">Hobbies</a>
+				</li>
+			</ul>
+			<h2>Gallery</h2>
+			<div class="row">
+			
+				<div class="zoom">
+					<div class="column"><img alt="jlyn" src="img3.jpg" style="width:100%"></div>
+					<div class="column"><img alt="lyn2" src="img4.jpg" style="width:100%"></div>
+					<div class="column"><img alt="lyn2" src="img5.jpg" style="width:100%"></div>
+					<div class="column"><img alt="lyn8" src="LittleMummy.jpg" style="width:100%"></div>
+					<div class="column"><img alt="lyn8" src="Swim.jpg" style="width:100%"></div>
+					<div class="column"><img alt="lyn2" src="IMG6.jpg" style="width:100%"></div>
+					<div class="column"><img alt="lyn8" src="val.jpg" style="width:100%"></div>
+					<div class="column"><img alt="lyn2" src="IMG8.jpg" style="width:100%"></div>
+					<div class="column"><img alt="lyn8" src="main3.jpg" style="width:100%"></div>
+					<div class="column"><img alt="lyn5" src="IMG10.jpg" style="width:100%"></div>
+					<div class="column"><img alt="lyn7" src="Jennilyn1.jpg" style="width:100%"></div>
+					<div class="column"><img alt="lyn8" src="Akima%203.jpg" style="width:100%"></div>
+				</div>
+			</div>	
+		</div>
+		
+	</header>
+	
+	<div class="footer">
+			<p>Individual Website, Copyright &copy;&amp;Written by Jennilyn Forde.2019 </p>
+		</div>
+		
+		
+		
+</body>
+</html>
