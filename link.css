@@ -2,12 +2,13 @@
 	margin:0;
 	padding:0;
 	font-family:Century Gothic;
-	background-color:gray;
+	
+	
 }
 
 header{
 	background-image: url(./image/main2.jpg);
-	background-color:gray;
+	
 	height:100%;
 	background-size:cover;
 	background-position:center;
@@ -31,14 +32,21 @@ headingdiv{
 	height:50px;
 	line-height:60px;
 	color:pink;
-	
 }
+	
 
-h2 h3{
+h2{
 	text-align:Center;
 	color:blueviolet;
 	height:50px;
-	color:blue;
+	line-height:40px;
+}
+
+h3{
+	text-align:Center;
+	color:blueviolet;
+	height:50px;
+	line-height:40px;
 }
 	
 
@@ -79,17 +87,27 @@ h2 h3{
 	font-family:Verdanda.Genva, sans-serif;
 	color:white;
 }
+p{
+	
+	
+	font-size:12px;
+	font-family:Verdanda.Genva, sans-serif;
+	color:blue;
+}
+
+
 .rightdiv{
 	width:40%;
 	float:right;
 	height:350px;
 	width:35%;
-	background-color:#0C9;
+	background-color:#0ff;
 }
-.imgclass{
+.img {
 	width:50%;
 	height:50%;
 	border:5px solid Blueviolet;
+	padding:5px;
 	
 	
 }
@@ -181,13 +199,15 @@ ul li.active a{
 .hobbies{
 	margin:5px;
 		border:1px solid Blueviolet;
-		float:left;
+		float:center;
 		width:50%;
 	
 }
-.hobbies img{
+.hobbies{
 	width:auto;
 	height:auto;
+	color:blue;
+	
 	
 	
 }
